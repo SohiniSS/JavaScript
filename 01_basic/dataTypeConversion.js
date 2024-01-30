@@ -18,3 +18,10 @@ console.log(boolconversion)
 let anynumber = 23
 let convertToString = String(anynumber);
 console.log(typeof(convertToString))
+
+
+console.log("1"+2+2)
+console.log(1+2+"2")
+console.log(2 + 3 % 5 * 6)
+console.log (2 + ((3 % 5) *6))
+console.log(3 % 5)
