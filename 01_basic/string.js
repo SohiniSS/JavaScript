@@ -136,14 +136,15 @@ step 1. isolate the first char
 step 2. change it to uppercase
 step 3. isolate the rest of the name
 step 4. concatenate first char with rest of the char */
-const charName = "Avirup"
+const charName = "aGTyui"
 // step 1.
 var firstchar = charName.substring(0,1)
 // step 2.
 var uppercaseName = firstchar.toUpperCase()
 // console.log(uppercaseName)
-// step 3.
+// step 3. substep: change rest of the name into lower case
 var restofName = charName.slice(1, charName.length)
+restofName = restofName.toLowerCase()
 // console.log(restofName)
 // step 4.
 var concatName = uppercaseName + restofName;
