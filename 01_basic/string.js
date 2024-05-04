@@ -150,3 +150,4 @@ restofName = restofName.toLowerCase()
 var concatName = uppercaseName + restofName;
 // console.log(concatName)
 console.log(`What is your name?\n Hello ${concatName}.`)
+console.log(5);
